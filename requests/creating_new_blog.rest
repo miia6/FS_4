@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RfdXNlciIsImlkIjoiNjYwMmQ5OTc4ZGEyMGVlNTc5NjkyY2NiIiwiaWF0IjoxNzExNDYyODE1LCJleHAiOjE3MTE0NjY0MTV9.5bIwX-akEtMEkQHCQIXmEG7MkR5w2cvrhvMK-BushqQ
+
+{
+    "title": "cat blog",
+    "author": "cat",
+    "url": "/cat",
+    "likes": 123
+}
